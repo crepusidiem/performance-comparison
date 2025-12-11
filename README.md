@@ -56,11 +56,3 @@ The table below shows the accuracy on the **80% training split** (averaged over 
 * **XGBoost** won 3 out of 4 datasets, proving its dominance on mixed and noisy data.
 * **SVM-RBF** achieved near-perfect accuracy on the *Letter* dataset, consistent with 2006 findings on clean data.
 * Accuracy consistently improved with larger training fractions (20% -> 50% -> 80%).
-
-## 💻 Installation & Usage
-
-### 1. Dependencies
-Ensure you have the following installed (Python 3.8+ recommended):
-
-```bash
-pip install numpy pandas scikit-learn xgboost ucimlrepo
